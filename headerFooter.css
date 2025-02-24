@@ -1,0 +1,345 @@
+/* 
+  ##Device = Mobiles
+*/
+.bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@media (min-width: 20px) and (max-width: 480px) {
+  
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color:white;
+    position: relative;
+    
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: #51ade5;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+   
+    display: block;
+    position: absolute;
+  
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    
+  }
+  
+  /* Style the active link (or home/logo) */
+
+
+  .active img{
+   height: 50px;
+   margin: 0%;
+   padding: 0%;
+  }
+
+ #hamburger{
+    color: #51ade5;
+ }
+
+
+ /* Footer Styles */
+ .footer {
+  /* background-color: #51ade5;*/
+  border-top-style: dotted;
+  background-color: aliceblue;
+ color: #51ade5;
+ 
+ text-align: center;
+   width: 100%;
+   padding-bottom: 1px;
+   position: static; 
+   bottom: 0; 
+   height: 90px; 
+   margin-top: 30px;
+   
+   
+ }
+ 
+ .footerText{
+   margin-bottom: 0px;
+ }
+ .contact-links {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-bottom: 1%;
+ }
+ 
+ .contact-icon {
+   text-decoration: none;
+   color: #51ade5;
+   font-size: 30px;
+   transition: transform 0.3s ease;
+ }
+ 
+ .contact-icon:hover {
+   transform: scale(1.2);
+ }
+ 
+ .linkedin:hover {
+   color: #51ade5;/* LinkedIn color */
+ }
+ 
+ .email:hover {
+   color: #51ade5;/* Email color */
+ }
+ 
+ .phone:hover {
+   color: #51ade5;/* Phone color */
+ }
+   }
+  
+
+
+
+
+  /* 
+  ##Device = Tablets
+*/
+
+@media (min-width: 481px) and (max-width: 1024px){
+  
+   /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color:white;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: #51ade5;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+   
+    display: block;
+    position: absolute;
+  
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    
+  }
+  
+  /* Style the active link (or home/logo) */
+
+
+  .active img{
+   height: 100px;
+   margin: 0%;
+   padding: 0%;
+  }
+
+ #hamburger{
+    color: #51ade5;
+ }
+    
+
+
+ /* Footer Styles */
+ .footer {
+  /* background-color: #51ade5;*/
+  border-top-style: dotted;
+  background-color: aliceblue;
+ color: #51ade5;
+ 
+ text-align: center;
+   width: 100%;
+   padding-bottom: 1px;
+   position: static; 
+   bottom: 0; 
+   height: 90px; 
+   margin-top: 30px;
+   
+   
+ }
+ 
+ .footerText{
+   margin-bottom: 0px;
+ }
+ .contact-links {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-bottom: 1%;
+ }
+ 
+ .contact-icon {
+   text-decoration: none;
+   color: #51ade5;
+   font-size: 30px;
+   transition: transform 0.3s ease;
+ }
+ 
+ .contact-icon:hover {
+   transform: scale(1.2);
+ }
+ 
+ .linkedin:hover {
+   color: #51ade5; /* LinkedIn color */
+ }
+ 
+ .email:hover {
+   color:#51ade5;/* Email color */
+ }
+ 
+ .phone:hover {
+   color: #51ade5;/* Phone color */
+ }
+   }
+  
+
+
+
+
+
+  /* 
+  ##Device = Desktops
+*/
+
+@media (min-width: 1025px) {
+
+
+  
+    /* CSS */
+    /* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color:white;
+  position: relative;
+  top: 0;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+ float: right;
+ 
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #51ade5;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+ 
+  display: none;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+ 
+ text-decoration: underline;
+}
+
+/* Style the active link (or home/logo) */
+.active img{
+ height: 80px;
+ margin: 0%;
+ padding: 0%;
+}
+
+
+
+
+
+    /* Footer Styles */
+.footer {
+ /* background-color: #51ade5;*/
+ border-top-style: dotted;
+ background-color: aliceblue;
+color: #51ade5;
+
+text-align: center;
+  width: 100%;
+  padding-bottom: 1px;
+  position: static; 
+  bottom: 0; 
+  height: 90px; 
+  margin-top: 30px;
+  
+}
+
+.footerText{
+  margin-bottom: 0px;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 1%;
+
+}
+
+.contact-icon {
+  text-decoration: none;
+  color: #51ade5;
+  font-size: 30px;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.2);
+}
+
+.linkedin:hover {
+  color: #51ade5; /* LinkedIn color */
+}
+
+.email:hover {
+  color: #51ade5; /* Email color */
+}
+
+.phone:hover {
+  color:  #51ade5;/* Phone color */
+}
+  }
