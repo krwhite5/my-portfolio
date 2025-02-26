@@ -1,0 +1,12 @@
+.Resume {
+  
+    width:80%;
+    height: 600px;
+    
+
+}
+
+.ResumeHolder{
+    display: flex;
+    justify-content: center;
+}
