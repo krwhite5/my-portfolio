@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="headerFooter.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <script src="myscripts.js"></script>
     
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 <body>
     <header>
@@ -31,8 +32,35 @@
             </a>
         </div>
     </header>
+    <h1 class="bebas-neue-regular">Contact ME</h1>
+    <div class="contactInfo ">
+        <p class="myPhone nunito-sans-normal">Phone Number: <a href="tel:9194408401">919 440 8401</a></p>
+        <p class="myEmail nunito-sans-normal">Email: <a href="mailto:kwhite5655@gmail.com">kwhite5655@gmail.com</a></p>
+    </div>
+    <div class="container">
+        
+        <form class="nunito-sans-normal" action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <p> Contact Coming Soon</p>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Email Adress">
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" >
+      
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Type a message.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 
     <footer class="footer">
         <p class="bebas-neue-regular footerText">Lets Connect</p>
