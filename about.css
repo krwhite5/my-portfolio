@@ -39,7 +39,15 @@
     text-align: center;
     font-size: large;
   }
-
+  .branding{
+    text-align: center;
+    font-style: italic;
+    font-family: 'nunito-sans-normal';
+    color:  #51ade5;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: x-large;
+  }
   .introP{
     text-align: center;
     font-family: 'nunito-sans-normal';
