@@ -1,12 +1,39 @@
-.Resume {
-  
-    width:80%;
-    height: 600px;
-    
 
-}
 
 .ResumeHolder{
     display: flex;
     justify-content: center;
+   
+}
+
+
+  
+@media (max-width: 480px) {
+    .Resume {
+  
+        width:80%;
+        height: 450px;
+
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px){
+    .Resume {
+  
+        width:80%;
+        height: 900px;
+
+    }
+
+}
+
+@media (min-width: 1025px) {
+
+    .Resume {
+  
+        width:80%;
+        height: 1050px;
+
+    }
+
 }

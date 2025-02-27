@@ -1,0 +1,146 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .nunito-sans-normal {
+    font-family: "Nunito Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  }
+  
+  h1{
+    color:  #51ade5;
+    text-align: center;
+  }
+  
+  .aboutMeIntro {
+    background-color: aliceblue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 30%;
+    width: 100%;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-color: #51ade5;
+
+  }
+
+  figcaption {
+   
+    color: #51ade5;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    font-size: large;
+  }
+
+  .introP{
+    text-align: center;
+    font-family: 'nunito-sans-normal';
+    color:  #51ade5;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: larger;
+
+  }
+
+  .AboutMePics{
+    margin-top: 3%;
+  }
+
+  @media (max-width: 480px){
+
+    #businessProfile{
+
+        border-color: #51ade5;
+        border-style: solid;
+        border-width: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-top: 10%;
+        
+    
+      }
+    
+      #DrewAndLuca{
+        border-color: #51ade5;
+        border-style: solid;
+        border-width: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-top: 10%;
+        
+     
+      }
+    
+      #comics{
+    
+        border-color: #51ade5;
+        border-style: solid;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-top: 10%;
+  }
+  }
+  @media (min-width: 481px){
+
+  .AboutMePics{
+   
+    display: grid;
+    column-gap: 5%;
+    grid-template-columns: auto auto auto;
+  }
+  #businessProfile{
+
+    border-color: #51ade5;
+    border-style: solid;
+    border-width: 2px;
+    display: block;
+    margin: auto;
+    width: 70%;
+    grid-column-start: 1;
+      grid-column-end: 2;
+    
+
+  }
+
+  #DrewAndLuca{
+    border-color: #51ade5;
+    border-style: solid;
+    border-width: 2px;
+    display: block;
+    margin: auto;
+    width: 70%;
+    
+    grid-column-start: 2;
+      grid-column-end: 3;
+  }
+
+  #comics{
+
+    border-color: #51ade5;
+    border-style: solid;
+    border-width: 2px;
+    display: block;
+    margin: auto;
+    width: 70%;
+    grid-column-start: 3;
+      grid-column-end: 4;
+  }
+
+
+
+ 
+}
